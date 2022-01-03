@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(24, 24, 24);
+    margin: 0;
+}
+.Navbar {
+    background-color: rgb(32, 32 ,32);
+    height: 56px;
+    width: 100%;
+}
