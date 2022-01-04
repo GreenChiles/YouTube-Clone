@@ -1,9 +1,32 @@
 body {
     background-color: rgb(24, 24, 24);
     margin: 0;
+    color: white;
 }
 .Navbar {
     background-color: rgb(32, 32 ,32);
     height: 56px;
     width: 100%;
+}
+
+.mainContainer {
+    border: 1px solid red;
+    height: 100vmin;
+    display: flex;
+
+    /*width: 100vmin; */
+}
+
+.video-Half-Left {
+float:left;
+display: inline-flex;
+width:70%;
+border: 1px solid blue
+}
+
+.suggestion-Half-Right {
+float:right;
+display: inline-flex;
+width: 30%;
+border: 1px solid blue;
 }
