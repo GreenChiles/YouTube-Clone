@@ -1,3 +1,12 @@
+* {
+    border: 1px solid red
+}
+
+@font-face {
+    font-family: 'ViceCitySans'; /*a name to be used later*/
+    src: url('Fonts/ViceCitySans.otf'); /*URL to font*/
+}
+
 body {
     background-color: rgb(24, 24, 24);
     margin: 0;
@@ -7,10 +16,32 @@ body {
     background-color: rgb(32, 32 ,32);
     height: 56px;
     width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#hamburgerMenu {
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#youtubeLogo {
+    height: 40px;
+    /*margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;*/
+    margin: 10px -3px 10px 10px
+}
+
+#youtubeLogoName {
+    font-family: 'ViceCitySans';
+    left: 30px;
+    font-size:1.4em ;
+    padding-top: 10px; 
 }
 
 .mainContainer {
-    border: 1px solid red;
     height: 100vmin;
     display: flex;
 
@@ -21,12 +52,11 @@ body {
 float:left;
 display: inline-flex;
 width:70%;
-border: 1px solid blue
 }
 
 .suggestion-Half-Right {
 float:right;
 display: inline-flex;
 width: 30%;
-border: 1px solid blue;
 }
+
