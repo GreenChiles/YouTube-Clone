@@ -18,6 +18,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    position: fixed;
+    margin-top: 0;
 }
 
 #hamburgerMenu {
@@ -39,6 +41,24 @@ body {
     left: 30px;
     font-size:1.4em ;
     padding-top: 10px; 
+}
+
+
+
+.searchBar {
+    margin: 0 auto;
+    display: block;
+   
+    position: relative;
+}
+
+#search {
+    background-color: rgb(18, 18, 18);
+}
+
+#searchButton {
+    background-color: rgb(49, 49, 49);
+    color:white;
 }
 
 .mainContainer {
