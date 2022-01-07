@@ -1,5 +1,11 @@
 * {
-    border: 1px solid red
+    border: 1px solid red;
+
+}
+
+html{
+    height: 100%;
+    margin-top: 0;
 }
 
 @font-face {
@@ -20,6 +26,7 @@ body {
     align-items: center;
     position: fixed;
     margin-top: 0;
+    z-index: 1;
 }
 
 #hamburgerMenu {
@@ -62,7 +69,8 @@ body {
 }
 
 .mainContainer {
-    height: 100vmin;
+    height: 100%;
+   
     display: flex;
 
     /*width: 100vmin; */
@@ -70,16 +78,27 @@ body {
 
 .video-Half-Left {
 float:left;
-display: inline-flex;
+display:flex;
+flex-direction: column;
+flex-flow: column; 
 width:60%;
 }
 
 .iframeContainer{
-    /* position: relative ; */
-    display: flex;
+   flex-flow: column;
+    align-items: center;
     width: 100%;
     justify-content: center;
     margin-top: 5em;
+}
+
+.underVideoContainer{
+    width: 100%;
+    /*position: absolute;*/
+}
+
+#location{
+    height: 25px;
 }
 
 .suggestion-Half-Right {
