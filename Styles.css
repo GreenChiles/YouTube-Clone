@@ -55,7 +55,6 @@ body {
 .searchBar {
     margin: 0 auto;
     display: block;
-   
     position: relative;
 }
 
@@ -70,9 +69,7 @@ body {
 
 .mainContainer {
     height: 100%;
-   
     display: flex;
-
     /*width: 100vmin; */
 }
 
@@ -87,9 +84,10 @@ width:60%;
 .iframeContainer{
    flex-flow: column;
     align-items: center;
-    width: 100%;
+    /*width: 100%;*/
     justify-content: center;
     margin-top: 5em;
+    align-self: center;
 }
 
 .underVideoContainer{
