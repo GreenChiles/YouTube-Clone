@@ -9,14 +9,20 @@ html{
 }
 
 @font-face {
-    font-family: 'ViceCitySans'; /*a name to be used later*/
-    src: url('Fonts/ViceCitySans.otf'); /*URL to font*/
+    font-family: 'ViceCitySans'; 
+    src: url('Fonts/ViceCitySans.otf'); 
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fonts/roboto/Roboto-Regular.ttf');
 }
 
 body {
     background-color: rgb(24, 24, 24);
     margin: 0;
     color: white;
+    font-family:'Roboto';
 }
 .Navbar {
     background-color: rgb(32, 32 ,32);
@@ -56,6 +62,14 @@ body {
     margin: 0 auto;
     display: block;
     position: relative;
+    width: 40%;
+    height: 40px;
+}
+
+input {
+    width:90%;
+    height: 38px;
+    margin-right: -5px;
 }
 
 #search {
@@ -65,6 +79,12 @@ body {
 #searchButton {
     background-color: rgb(49, 49, 49);
     color:white;
+    height: 100%;
+    width: 9%;
+}
+
+#searchIcon {
+    height: 25px;
 }
 
 .mainContainer {
@@ -93,6 +113,8 @@ width:60%;
 .underVideoContainer{
     width: 100%;
     /*position: absolute;*/
+    color:rgb(62,166, 255);
+    font-size: 12px;
 }
 
 #location{
