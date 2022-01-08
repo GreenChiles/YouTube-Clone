@@ -88,7 +88,7 @@ input {
 }
 
 .mainContainer {
-    height: 100vmin;
+    max-height: 100%;
     display: flex;
     /*width: 100vmin; */
 }
@@ -99,7 +99,7 @@ display:flex;
 flex-direction: column;
 flex-flow: column; 
 width:60%;
-height: 100%;
+max-height: 100%;
 }
 
 .iframeContainer{
@@ -132,6 +132,9 @@ justify-content: center;
 .videoSuggestions {
     width: 50%;
     height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #videoOne {
